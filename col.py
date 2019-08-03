@@ -14,7 +14,7 @@ s = Steem(keys=[cl])
 #myplanet=settings.mylist["myplanet"]
 
 def custom_json():
-    
+
     global s
     minelist=planets.getskills()
     if not minelist:  print(datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')," ningun mine skill o building "); return
