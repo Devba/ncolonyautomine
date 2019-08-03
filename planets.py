@@ -77,7 +77,5 @@ def getbuildings():
                     l["tipo"] = "upgrade"
                     res.append(l)
 
-
-
 if __name__ == "__main__":
  getbuildings()
